@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null">
+
+    <TextView
+        android:id="@+id/surfaceName"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:text="@string/surfName"
+        android:textColor="#000"
+        android:textSize="18dp"
+        android:fontFamily="@font/lato_light"
+        />
+
+    <TextView
+        android:id="@+id/surfValue"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="@string/surfValue"
+        android:textSize="18dp"
+        android:fontFamily="@font/lato" />
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="76dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/rounded_bg"
+        android:fontFamily="@font/lato_medium"
+        android:text="0.0 cm"
+        android:gravity="center"
+        android:textColor="#313131"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAdd2"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="80dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginBottom="106dp"
+        android:background="@drawable/button_states"
+        android:foreground="@drawable/ic_back_05"
+        android:foregroundGravity="center"
+        android:foregroundTint="@android:color/background_dark"
+        android:onClick="clearAnchors"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="106dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/button_states"
+        android:foreground="@drawable/ic_saved_03"
+        android:foregroundGravity="center"
+        android:onClick="addDimension"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/button"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/button_states"
+        android:foreground="@drawable/ic_plus_01"
+        android:foregroundGravity="center"
+        android:onClick="addFromAim"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/buttonAdd2"
+        app:layout_constraintEnd_toStartOf="@id/buttonAdd"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="142dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/rounded_bg"
+        android:fontFamily="@font/lato_medium"
+        android:onClick="showCalculatorDialog"
+        android:text="@string/calculate"
+        android:textColor="#313131"
+        android:textSize="14dp"
+        android:elevation="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.935"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

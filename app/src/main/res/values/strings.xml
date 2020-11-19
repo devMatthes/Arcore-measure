@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Paint Measured</string>
+    <string name="dialogTitle1">Saved Records</string>
+    <string name="dialogTitle2">Save Record</string>
+    <string name="insertName">Insert name</string>
+    <string name="SaveStr">SAVE</string>
+    <string name="ExitStr">EXIT</string>
+    <string name="okStr">OK</string>
+    <string name="surfName">SurfaceName</string>
+    <string name="surfValue">999m²</string>
+    <string name="addNewValue">Add measurement</string>
+    <string name="surface">x m²</string>
+    <string name="calcTitle">Paint Calculator</string>
+    <string name="thisSurf">This surface is X m²</string>
+    <string name="howAbs">Absorbency of the surface</string>
+    <string name="numbOfLay">Number of layers to paint</string>
+    <string name="paintEff">Your paint efficiency</string>
+    <string name="surfaceValue">Surface to paint</string>
+    <string name="m2l">m²/l</string>
+    <string name="m2">m²</string>
+    <string name="calculate">Measurements</string>
+    <string name="respondString">You should use 1000l of paint</string>
+    <string name="subtractQuestion">Do you want to remove any objects from selected surface?</string>
+    <string name="noSubButton">NO</string>
+    <string name="yesSubButton">YES</string>
+    <string name="calculatorExit">EXIT</string>
+</resources>
