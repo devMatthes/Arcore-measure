@@ -1,17 +1,17 @@
 # Arcore-measue
 
-## Project Overview 🎉
+## Project Overview 
 With this application you can easliy estimate how much paint you need.
 
 Move your device from left to right to detect a plane. Set the aim at the interesting point and just click to start the measure. When you end you can save the measure on your device to have an access to saved records in future.
-## Tech/framework used 🔧
+## Tech/framework used 
 
 | Tech                                                    ||
 | ------------------------------------------------------- |-------------------------------------------------------|
 | Google ARCore                          | v1.0  |
 | Sceneform                              | v1.15.0|
 
-## Code Example 🔍
+## Code Example 
 ### Simulating an aim movement
 ```java
 private void touchScreenCenterConstantly() {
@@ -190,7 +190,7 @@ public void addFromAim(View view) {
     }
 ```
 Firstly you put one point that activates heightMeasurement() function then you put how many points you want which reflect the width(s) of the wall(s) and after confirmation the measure of selected surface is being calculated.
-## Requirements 💾
+## Requirements 
 ### Hardware
 An Android device must be running Android 7.0 or newer
 
